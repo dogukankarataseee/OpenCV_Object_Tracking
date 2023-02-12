@@ -1,0 +1,30 @@
+Nesne Takibi (Object Tracking)
+
+	Görüntü iþleme (Computer Vision) görüntülerden önemli bilgilerin çýkarýlmasý ve iþlenmesi için kullanýlan yöntemlerdir. 
+
+Nesne Takibi Nedir?
+
+Video içerisinde hareket eden nesnelerin takibinin yapýlmasý konum, hýz veya doðrultu gibi bilgilerin edinilmesi amaçlanmýþtýr.
+
+
+	Genellikle videolar içerisindeki insanlar takip edilse de hayvanlar ya da arabalarýn da takibi yapýlabilir. Nesne takibinin yapýlabilmesi için ilk baþta nesne tespitinin yapýlmasý gerekir. Arka arkaya gelen iki görüntünün birbirinden çýkarýlmasý ile hareket eden nesnenin tespit edilmesi gibi birçok farklý yöntem nesne tespitinde kullanýlýr. 
+
+"Nesne takibinin yapýlmasýnýn en önemli basamaðý doðru nesne tespiti yapmaktýr."
+
+
+Ýki tane nesne izleme türü vardýr:
+
+Offline object tracking = Daha önce kaydedilmiþ bir videodan objelerin takip edilmesidir.
+
+Online object tracking = Canlý bir video akýþý üzerinde yapýlan nesne izleme, örneðin bir güvenlik kamerasý. Bu daha zordur çünkü gelen görüntülerin hýzlý bir þekilde analiz edilmesi beklenmektedir.
+
+Nesne takip yöntemlerinde kullanýlan metrikler
+
+Yapýlan nesne takip çalýþmalarýnda sonuçlarýn deðerlendirilmesi için kullanýlan metotlardan birkaçý kesinlik (precision) ve duyarlýlýk (recall) yöntemidir.
+
+Kesinlik (Precision): Nesnenin var olduðunu tahmin ettiðiniz deðerlerin gerçekten kaç tanesinde nesnenin var olduðunu olduðunu göstermektedir.
+
+Duyarlýlýk (Recall) : Nesnenin var olarak tahmin etmemiz gereken iþlemlerin ne kadarýný nesne var olarak tahmin ettiðimizi gösteren bir metriktir.
+
+
+
